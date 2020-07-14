@@ -7,12 +7,14 @@ import './Pricing.css';
 export default function Pricing(){
     return(
 
-        <div className="Home container-fluid">
+        <div className="pricingPage container-fluid">
             <Navbar />
-            <div class="mtHome"></div>
-            <h1 className="line headline">
-                Data Extraction from <span className="themeText blink">EMail</span>
+            <div className="mtHome"></div>
+            <h1 className="headline">
+                <span className="themeText blink">Pricing</span>
             </h1>
+            <br/>
+            <br/>
             <div className="center container row pricingContent card-deck">
                 <div className="pricing-box col-md-auto text-center">
                     <h6 className="planName">Free</h6>
@@ -48,30 +50,52 @@ export default function Pricing(){
                     <button className="btn-primary">Get Started</button>
                 </div>
             </div>
-
-            <div className="center">
-                <form class="form-inline center">
-                    <label class="sr-only" for="inlineFormInputName2">Name</label>
-                    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe"/>
-
-                    <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+            <br/>
+            <br/>
+            <div className="customPriceSect gray center">
+                <h3 className="headline">
+                    Customize according to need.
+                </h3>
+                <form className="form-inline center">
+                    <input type="number" min="1" className="form-control mb-2 mr-sm-5" id="inlineFormInputName2" placeholder="Number of Mails"/>
                     
-                    <div class="input-group mb-2 mr-sm-2">
-                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username"/>
-                        <div class="input-group-prepend">
-                            <div class="input-group-text">&#8377;</div>
+                    <div className="symbol input-group mb-2 mr-sm-5">
+                        <div className="input-group-prepend">
+                            <div className="input-group-text">&#xd7;</div>
+                        </div>
+                    </div>
+                    
+                    <div className="input-group mb-2 mr-sm-5">
+                        <input type="text" disabled="disabled" className="form-control" id="inlineFormInputGroupUsername2" placeholder="Price Per Mail"></input>
+                        <div className="input-group-prepend">
+                            <div className="input-group-text">&#8377;</div>
                         </div>
                     </div>
 
-                    <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-                    
-                    <div class="input-group mb-2 mr-sm-2">
-                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username"/>
-                        <div class="input-group-prepend">
-                            <div class="input-group-text">&#8377;</div>
+                    <div className="symbol input-group mb-2 mr-sm-5">
+                        <div className="input-group-prepend">
+                            <div className="input-group-text">&#x3d;</div>
                         </div>
+                    </div>
+                    
+                    <div className="input-group mb-2 mr-sm-5">
+                        <input type="text" disabled="disabled" className="form-control" id="inlineFormInputGroupUsername2" placeholder="Total Price"></input>
+                        <div className="input-group-prepend">
+                            <div className="input-group-text">&#8377;</div>
+                        </div>
+                    </div>
+                    <div className="symbol input-group mb-2 mr-sm-5">
+                        <button className="priceBtn btn">Submit Price</button>
                     </div>
                 </form>
+                <div className="highQuote container center form-inline row">
+                    <h3 className="headline input-group col col-lg-8 mb-2 mt-2">
+                        Higher Requirement ?
+                    </h3>
+                    <div className=" col col-lg-4 qBtn input-group mb-2 mt-2">
+                        <button className="priceBtn quoteBtn btn">Get Quote</button>
+                    </div>
+                </div>
             </div>
 
         </div>  
