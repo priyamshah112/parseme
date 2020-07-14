@@ -30,13 +30,14 @@
     padding-top:2%;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     color: #333333;
 }
 
 
 .line{
     padding-top:7%;
+    letter-spacing: 2px;
 }
 
 .themeText{
@@ -116,9 +117,11 @@
     color: #000;
 }
 
+
+
 .videoDiv{
     margin-top:3%;
-    background-image: url("../../images/open-mail.png");
+    background-image: url("../../images/Monitor.png");
     width:100%; 
     background-repeat: no-repeat;
     background-position-x: center;
@@ -127,12 +130,13 @@
 }
 
 .videoDiv iframe{
-    padding-top: 5%;
-    width:45%; 
-    height: 90%;
+    margin-top: 1.7%;
+    margin-right: 10px;
+    width: 605px; 
+    height: 300px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     .videoDiv{        
         background:none;
     }
@@ -142,6 +146,9 @@
         height: 70%;
     }
   }
+
+
+
 
   .workflow{
     margin-top:3%;
@@ -164,4 +171,27 @@
         margin-top: 50%;
     }        
 
-  }
+}
+
+.features{
+    width: 100%;
+    margin:0;
+    padding:0;
+    margin-top: 3%;
+}
+
+.feature{
+    margin: auto;
+    border: 1px solid #fe4701;
+    border-radius: 3px;
+}
+
+.feature-icon{
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.featureText{
+    margin-top: 10px;
+    line-height: 1.8;
+}
