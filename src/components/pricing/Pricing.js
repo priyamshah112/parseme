@@ -53,7 +53,7 @@ export default function Pricing(){
             <br/>
             <br/>
             <div className="customPriceSect gray center">
-                <h3 className="headline">
+                <h3 className="line headline">
                     Customize according to need.
                 </h3>
                 <form className="form-inline center">
@@ -94,6 +94,42 @@ export default function Pricing(){
                     </h3>
                     <div className=" col col-lg-4 qBtn input-group mb-2 mt-2">
                         <button className="priceBtn quoteBtn btn">Get Quote</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="faqSect customPriceSect center">
+                <h3 className="headLine themeText">Frequently Asked Questions</h3>
+                <div className="faqContent container">
+                    <div className="row">
+                        <div className="col-md-6">
+                        <p>How does the <span className="themeText">free subscription</span> work?</p>
+                        <p>Est do velit irure tempor tempor quis enim occaecat est mollit occaecat. Excepteur ad ullamco ut labore irure. Labore elit et sit quis esse ex sint aliquip.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <p>How does the <span className="themeText">free subscription</span> work?</p>
+                            <p>Est do velit irure tempor tempor quis enim occaecat est mollit occaecat. Excepteur ad ullamco ut labore irure. Labore elit et sit quis esse ex sint aliquip.</p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6">
+                        <p>How does the <span className="themeText">free subscription</span> work?</p>
+                        <p>Est do velit irure tempor tempor quis enim occaecat est mollit occaecat. Excepteur ad ullamco ut labore irure. Labore elit et sit quis esse ex sint aliquip.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <p>How does the <span className="themeText">free subscription</span> work?</p>
+                            <p>Est do velit irure tempor tempor quis enim occaecat est mollit occaecat. Excepteur ad ullamco ut labore irure. Labore elit et sit quis esse ex sint aliquip.</p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6">
+                        <p>How does the <span className="themeText">free subscription</span> work?</p>
+                        <p>Est do velit irure tempor tempor quis enim occaecat est mollit occaecat. Excepteur ad ullamco ut labore irure. Labore elit et sit quis esse ex sint aliquip.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <p>How does the <span className="themeText">free subscription</span> work?</p>
+                            <p>Est do velit irure tempor tempor quis enim occaecat est mollit occaecat. Excepteur ad ullamco ut labore irure. Labore elit et sit quis esse ex sint aliquip.</p>
+                        </div>
                     </div>
                 </div>
             </div>
