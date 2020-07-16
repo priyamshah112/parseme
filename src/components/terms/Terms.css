@@ -1,0 +1,21 @@
+.termsSect{
+    margin:auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.termsSect h3{
+    color: #333333;
+}
+
+.termsSect li{
+    margin-top: 15px;
+    color: #333333;
+    text-align: left;
+    font-size: 20px;
+}
+
+.termsSect li span{
+    font-weight: 600;
+}
