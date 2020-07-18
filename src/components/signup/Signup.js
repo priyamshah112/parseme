@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import './Signup.css';
-import { render } from '@testing-library/react';
 
 class Signup extends Component{
     state = {

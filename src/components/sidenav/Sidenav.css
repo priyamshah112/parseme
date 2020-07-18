@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.sidenav{
+	height:50px;
+    border-bottom:1px solid #333;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    z-index: 100;
+}
+
+.sidenav #check{
+	display:none;
+}
+
+.hamburger{
+    display: none;
+	margin-left:10px;
+	font-size:30px;
+}
+
+.sidebar{
+	width:200px;
+    height:100%;
+    margin:0;
+	background-color:#fff;
+	z-index: 100;
+    position:fixed;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+	transition: all .5s ease;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+
+.sidebar li{
+    width: 100%;
+    /* padding-top: 20px; */
+    height: 50px;
+    display: table;
+}
+
+.sidebar a{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: table-cell;
+}
+
+.sidebar span{
+    margin-left: 10px;
+}
+
+.color{
+    color:#333;
+    text-decoration: none !important;
+    font-size: 16px;
+    letter-spacing: .5px;
+    margin-top: auto;
+}
+
+.sidebar label{
+    display: none;
+}
+
+.sidenav-active{
+    border-bottom: 1px solid #fe4701;
+    border-width: 1px 1px 1px 5px ;
+    border-style: solid;
+    border-color: #fe4701;
+}
+
+.brand{
+    width: 100%;
+    margin:0;
+    padding:0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.brand span{
+    padding: 0;
+    margin:0;
+}
+
+.sidenav-active a{
+    padding-left: 15px;
+    border: none;
+}
+
+.sidebar li:hover a{
+    background-color: #fe4701;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+@media only screen and (max-width:700px){
+    .sidebar{
+        left: -200px;
+        border-right: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .sidebar label{
+        display: block;
+        color: #333;
+        width: 100%;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .hamburger{
+        display: block;
+        margin-left:10px;
+        font-size:30px;
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        margin: 0;
+        padding:0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    .hamburger label{
+        padding-left: 20px;
+    }
+    .brand{
+        width: 85%;
+        text-align: center;
+        color: #333;
+    }
+
+    .color{
+        color:#333;
+        text-decoration: none !important;
+        font-size: 16px;
+        letter-spacing: .5px;
+        margin-top: auto;
+    }
+    #check:checked ~ .sidebar{
+        left:0;
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+    .sidebar{
+        width: 150px;
+        left: -150px;
+    }
+    #check:checked ~ .sidebar{
+        left:0;
+    }
+    
+}
