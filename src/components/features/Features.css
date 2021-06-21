@@ -32,9 +32,13 @@
     height: 300px;
 }
 
-.imageContent, .featureHead{
+.imageContent, .image{
     margin:0;
+    height: 100%;
+    
 }
+
+
 
 .text{
     margin-top: 10px;

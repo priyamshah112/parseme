@@ -15,8 +15,8 @@ export default function Navbar(){
                     <a className="btn nav-button" href="contact">Contact Us</a>
                 </ul>
                 <ul className="navbar-nav col-sm-2 offset-md-4">
-                    <a className="btn login log-btn mt-1 raise" href="/">Login</a>
-                    <a className="btn signup log-btn mt-1 raise" href="/">Signup</a>
+                    <a className="btn login log-btn mt-1 raise" href="/login">Login</a>
+                    <a className="btn signup log-btn mt-1 raise" href="/signup">Signup</a>
                 </ul>
             </div>
         </nav> 

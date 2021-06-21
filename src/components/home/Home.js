@@ -5,7 +5,7 @@ import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
 import BottomLine from '../bottomLine/BottomLine';
 
-import Workflow from '../../images/email-parser-workflow.png';
+import Workflow from '../../images/Workflow.png';
 import './Home.css'
 
 
@@ -24,7 +24,7 @@ export default function Home(){
                     
                     <h3 className="business">Automate your Business</h3>
                     
-                    <a className="btn parseBtn btnBlink" href="/">Parse Your Email<span className="icon"><i class="fa fa-hand-o-right"></i></span></a>
+                    <a className="btn parseBtn btnBlink" href="/login">Parse Your Email<span className="icon"><i class="fa fa-hand-o-right"></i></span></a>
                 </div>
             </section>
             
@@ -36,7 +36,7 @@ export default function Home(){
                     <img src={ Workflow } alt="workflow"/>
                     <br/>
                     <br/>
-                    <a className="btn parseBtn" href="/">Use it for <span className="themeText">Free</span> <span className="icon"><i class="fa fa-hand-o-right"></i></span></a>
+                    <a className="btn parseBtn" href="/login">Use it for <span className="themeText">Free</span> <span className="icon"><i class="fa fa-hand-o-right"></i></span></a>
                 </div>
             </section>
             <section className="section">
